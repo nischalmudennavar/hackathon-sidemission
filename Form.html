@@ -134,7 +134,7 @@
     <div class="form-container">
         <form action="">
             <div>
-                <select name="title" id="title">
+                <select name="title" id="title" required>
                     <option value="Mr">Mr</option>
                     <option value="Mrs">Mrs</option>
                     <option value="Miss">Miss</option>
@@ -142,26 +142,26 @@
                     <option value="Dr">Dr</option>
 
                 </select>
-                <input type="text" name="firstname" id="firstname" placeholder="First Name">
-                <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
             </div>
             <div>
-                <input type="date" name="dob" id="dob">
-                <input type="email" name="email" id="email" placeholder="Email">
-                <input type="text" name="phone" id="phone" placeholder="Phone">
+                <input type="date" name="dob" id="dob" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="text" name="phone" id="phone" placeholder="Phone" required>
             </div>
             <!-- dob input  -->
 
             <div>
 
-                <input type="textarea" name="address" id="address" placeholder="Address">
-                <input type="text" name="city" id="city" placeholder="City">
-                <input type="text" name="state" id="state" placeholder="State">
+                <input type="textarea" name="address" id="address" placeholder="Address" required>
+                <input type="text" name="city" id="city" placeholder="City" required>
+                <input type="text" name="state" id="state" placeholder="State" required>
             </div>
             <div>
 
-                <input type="text" name="zip" id="zip" placeholder="Zip">
-                <input type="text" name="country" id="country" placeholder="Country">
+                <input type="text" name="zip" id="zip" placeholder="Zip" required>
+                <input type="text" name="country" id="country" placeholder="Country" required>
             </div>
 
             <!-- <div>
