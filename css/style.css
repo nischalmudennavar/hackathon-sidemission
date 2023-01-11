@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  background: rgb(206, 206, 206);
+  flex-direction: column;
+}
+.card-container {
+  background: #ffffff;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #2a2a2a2f;
+}
+
+.card-header {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-header h2 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.card-header h3 {
+  font-size: 0.85rem;
+  font-weight: 100;
+  position: relative;
+  top: -10px;
+}
+.card-body {
+  margin-top: 10px;
+  display:flex;
+}
+
+.card-details {
+  display: flex;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card-left{
+
+
+    
+}
+.trip-type {
+  text-align: center;
+}
+.trip-type h5 {
+
+  font-weight: 500;
+  color: #000000;
+  padding: 5px;
+
+}
+
+
+.card-additional-details{
+
+    height:auto;
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin-left: 10px;
+    text-align: left;
+    font-size:12px;
+
+
+}
+
+.fare-breakup{
+
+    background:#fff;
+    margin:20px;
+    padding:20px;
+    border-radius: 15px;
+    height:auto;
+    width:auto;
+
+
+
+
+}
+
+.fare-breakup-details{
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:10px;
+    font-size:15px;
+
+
+
+}
+
+button{
+
+    height:50px;
+   
+    width:200px;
+    outline: none;
+    background: rgb(68, 68, 221);
+    border:none;
+    border-radius: 10px;
+    color:#fff;
+    text-align: center;
+    margin:10px;
+    cursor: pointer;
+    transition: all 100ms ease;
+
+}
+button:active{
+
+    transition: all 100ms ease;;
+    transform: scale(0.95) ;
+}

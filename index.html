@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- external css -->
+    <!-- past only the external css used like cdns and stuff  -->
+
+    <!-- internal css -->
+
+
+    <!-- fonts -->
+    <!-- paste the font cdns here !  -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            font-family: "Roboto", sans-serif;
+            align-items: center;
+            background: rgb(206, 206, 206);
+
+        }
+
+        .main-container {
+
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            font-family: "Roboto", sans-serif;
+            align-items: center;
+            background: rgb(206, 206, 206);
+
+        }
+
+        .card-container {
+            background: #ffffff;
+            width: 35%;
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #2a2a2a2f;
+
+
+        }
+
+        .card-header {
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        .card-header h2 {
+            font-size: 1.35rem;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        .card-header h3 {
+            font-size: 0.85rem;
+            font-weight: 100;
+            position: relative;
+            top: -10px;
+        }
+
+        .card-body {
+            margin-top: 10px;
+            display: flex;
+            width: 100%;
+
+        }
+
+        .card-details {
+            display: flex;
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "Roboto", sans-serif;
+            font-weight: 200;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+
+
+        .trip-type {
+            text-align: center;
+        }
+
+        .trip-type h5 {
+
+            font-weight: 500;
+            color: #000000;
+            padding: 5px;
+
+        }
+
+
+        .card-additional-details {
+
+            height: auto;
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+            text-align: left;
+            font-size: 12px;
+            border-left: 1px solid #000000;
+            padding: 20px;
+
+
+        }
+
+        .fare-breakup {
+
+            background: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            height: auto;
+            width: auto;
+            box-shadow: 0px 0px 10px #2a2a2a2f;
+
+
+
+
+        }
+
+        .fare-breakup-details {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+            font-size: 15px;
+
+
+
+        }
+
+        button {
+
+            height: 50px;
+
+            width: 200px;
+            outline: none;
+            background: #0047ab;
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+            margin: 10px;
+            cursor: pointer;
+            transition: all 100ms ease;
+            box-shadow: 0px 0px 10px #2a2a2a2f;
+
+        }
+
+        button:active {
+
+            transition: all 100ms ease;
+            ;
+            transform: scale(0.95);
+        }
+    </style>
+
+
+
+    <title>Awesome Project </title>
+</head>
+
+<body>
+
+
+    <div class="main-container">
+        <div class="card-container">
+            <div class="card-header">
+                <h2> Pune to Delhi</h2>
+                <h3>Tuesday, 14 Feb 2023 </h3>
+            </div>
+            <hr>
+            <div class="card-body">
+                <div class="card-details">
+                    <div class="card-left">
+                        <h1>07:30</h1>
+                        <h3>PNQ</h3>
+                        <h5>Terminal</h5>
+                    </div>
+                    <div class="trip-type">
+                        <h5>Trip Type</h5>
+                        <h3>Non Stop</h3>
+
+                    </div>
+                    <div class="card-right">
+                        <h1>07:30</h1>
+                        <h3>DEL</h3>
+                        <h5>Terminal</h5>
+                    </div>
+
+
+                </div>
+                <div class="card-additional-details">
+                    <p>Duration 2h 20min
+                        <br> Operated by Air india
+                    </p>
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="fare-breakup">
+            <h2>Fare Breakup</h2>
+            <div class="fare-breakup-details">
+                <div class="fare-breakup-left">
+                    <p>Adults </p>
+                    <p>Taxes</p>
+                    <p>Other Charges</p>
+                    <p style="font-weight: bold; font-size:20px;margin-top:10px;"> Total</p>
+                </div>
+                <div class="fare-breakup-right">
+                    <p>1</p>
+                    <p>₹ 2,000</p>
+                    <p>₹ 2,000</p>
+                    <p style="font-weight: bold; font-size:20px;margin-top:10px;"> $ 5124</p>
+                </div>
+            </div>
+            <button>
+                <h3>Book Now / Continue</h3>
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- external js  -->
+
+    <!-- internal js -->
+
+
+
+</body>
+
+</html>
